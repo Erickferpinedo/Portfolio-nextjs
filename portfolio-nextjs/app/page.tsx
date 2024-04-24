@@ -101,6 +101,7 @@ export default function Home() {
     <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center">
     <div className="w-full flex flex-col 
             justify-center items-center" >
+
     <Image
                   src="/education.png"
                   width={30}
@@ -349,13 +350,56 @@ export default function Home() {
 </div>
 <div className="flex flex-col md:flex-row ">
 <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+<div className="w-full flex flex-col justify-center items-center">
+<Image
+    src="/comingsoon1.jpg"
+    width={300}
+    height={200}
+    alt="Picture of the author"
+    className="ml-2 mr-2" />
+</div>
+<div className="w-full flex flex-col justify-center items-center">
+<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project One</h1>
+</div>
+<div className="w-full flex justify-center items-center">
+  <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+  <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+</div>
 
 </div>
 <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
-
+<div className="w-full flex flex-col justify-center items-center">
+<Image
+    src="/comingsoon1.jpg"
+    width={300}
+    height={200}
+    alt="Picture of the author"
+    className="ml-2 mr-2" />
+</div>
+<div className="w-full flex flex-col justify-center items-center">
+<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project two</h1>
+</div>
+<div className="w-full flex justify-center items-center">
+  <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+  <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+</div>
 </div>
 <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
-  
+<div className="w-full flex flex-col justify-center items-center">
+<Image
+    src="/comingsoon1.jpg"
+    width={300}
+    height={200}
+    alt="Picture of the author"
+    className="ml-2 mr-2" />
+</div>
+<div className="w-full flex flex-col justify-center items-center">
+<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project three</h1>
+</div>
+<div className="w-full flex justify-center items-center">
+  <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+  <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+</div>
 </div>
 
 </div>
