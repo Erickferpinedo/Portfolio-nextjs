@@ -414,6 +414,14 @@ export default function Home() {
 </div>
 
 
+<div className="flex flex-col md:flex-row ">
+
+  <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2" >
+
+  </div>
+</div>
+
+
     </main>
 
     );
