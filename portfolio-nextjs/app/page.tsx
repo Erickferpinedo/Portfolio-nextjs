@@ -404,6 +404,14 @@ export default function Home() {
 
 </div>
 
+<div id="Contact">
+<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
+<p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400"></small>Get In Touch</p>
+</div>
+<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
+<h1 className="text-4xl font-bold dark:text-white mb-3">Contact Me</h1>
+</div>
+</div>
 
 
     </main>
