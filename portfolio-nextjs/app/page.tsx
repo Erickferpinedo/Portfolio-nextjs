@@ -43,7 +43,7 @@ export default function Home() {
           {/* <h2 className="mb-4 mt-4"><span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Full Stack Developer</span></h2> */}
           <div className="mb-4 mt-4 flex flex-row">
             <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Downloadd CV</button>
-            <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Contact Info</button>
+            <button id="Contact" type="button"  className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700" >Contact Info</button>
 
           </div>
           <div className="mb-4 mt-4 flex flex-row justify-between">
@@ -53,18 +53,21 @@ export default function Home() {
               height={30}
               alt="Picture of the author"
               className="ml-2 mr-2" />
+              <a href="https://www.linkedin.com/in/erick-pinedo-murgas-a27332272/"></a>
             <Image
               src="/github.png"
               width={30}
               height={30}
               alt="Picture of the author"
               className="ml-2 mr-2" />
+              <a href="https://github.com/Erickferpinedo"></a>
             <Image
               src="/logo-instagram-black and white.avif"
               width={30}
               height={30}
               alt="Picture of the author"
               className="ml-2 mr-2" />
+              <a href="https://www.instagram.com/erickferpinedo/"></a>
           </div>
 
         </div>
