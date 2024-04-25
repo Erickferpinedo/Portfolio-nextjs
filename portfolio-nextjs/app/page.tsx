@@ -414,12 +414,57 @@ export default function Home() {
 </div>
 
 
-<div className="mb-4 mt-4 flex flex-col md:flex-row lg:flex-row justify-between">
-<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2 justify-between" >
+<div className="details-container flex-1 bg-white p-4 md:p-6 pl-4 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2 justify-between">
+    <div className="mb-4 mt-8 md:mt-0 flex flex-col md:flex-row lg:flex-row justify-between">
+        <div className="flex items-center mb-2 md:mb-0">
+            <Image
+                src="/email.png"
+                width={30}
+                height={30}
+                alt="Picture of the author"
+                className="ml-2 mr-2"
+            />
+            <a href="mailto:erickfprogrammer@gmail.com">erickfprogrammer@gmail.com</a>
+        </div>
 
-</div>
+        <div className="flex items-center mb-2 md:mb-0">
+            <Image
+                src="/linkedin.png"
+                width={30}
+                height={30}
+                alt="Picture of the author"
+                className="ml-2 mr-2"
+            />
+            <a href="https://www.linkedin.com/in/erick-pinedo-murgas-a27332272/">Linkedin</a>
+        </div>
+
+        <div className="flex items-center">
+            <Image
+                src="/logo-instagram-black and white.avif"
+                width={30}
+                height={30}
+                alt="Picture of the author"
+                className="ml-2 mr-2"
+            />
+            <a href="https://www.instagram.com/erickferpinedo/">Instagram</a>
+        </div>
+    <div className="flex items-center">
+    <Image
+                src="/github.png"
+                width={30}
+                height={30}
+                alt="Picture of the author"
+                className="ml-2 mr-2"
+            />
+            <a href="https://github.com/Erickferpinedo">Github</a>
+        </div>
+    </div>
 </div>
 
+
+<div className="flex items-center justify-center w-full bg-white p-4 text-sm text-gray-500 mt-20">
+    Copyright © 2023 Erick Pinedo. All Rights Reserved.
+</div>
 
     </main>
 
