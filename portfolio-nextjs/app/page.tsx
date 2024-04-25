@@ -404,8 +404,8 @@ export default function Home() {
 
 </div>
 
-<div id="Contact">
-<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
+<div id="Contact" > 
+<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center ">
 <p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400"></small>Get In Touch</p>
 </div>
 <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
@@ -414,11 +414,10 @@ export default function Home() {
 </div>
 
 
-<div className="flex flex-col md:flex-row ">
+<div className="mb-4 mt-4 flex flex-col md:flex-row lg:flex-row justify-between">
+<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2 justify-between" >
 
-  <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2" >
-
-  </div>
+</div>
 </div>
 
 
