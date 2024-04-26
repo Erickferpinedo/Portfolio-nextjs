@@ -184,8 +184,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
 
@@ -198,8 +198,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
      </div>
@@ -214,8 +214,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
 
@@ -228,8 +228,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
 
@@ -242,8 +242,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
      </div>
@@ -267,8 +267,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
 
@@ -281,8 +281,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
 
@@ -295,8 +295,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
      </div>
@@ -311,8 +311,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
 
@@ -325,8 +325,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
 
@@ -339,8 +339,8 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-white">Html</h3>
-    <p className="text-left">Experienced</p>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
      </div>
@@ -424,7 +424,7 @@ export default function Home() {
 
 <div className="details-container flex-1 bg-white p-4 md:p-6 pl-4 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2 justify-between">
     <div className="mb-4 mt-8 md:mt-0 flex flex-col md:flex-row lg:flex-row justify-between">
-        <div className="flex items-center mb-2 md:mb-0">
+        <div className="flex items-center mb-2 md:mb-0 dark:text-black">
             <Image
                 src="/email.png"
                 width={30}
@@ -435,7 +435,7 @@ export default function Home() {
             <a href="mailto:erickfprogrammer@gmail.com">erickfprogrammer@gmail.com</a>
         </div>
 
-        <div className="flex items-center mb-2 md:mb-0">
+        <div className="flex items-center mb-2 md:mb-0 dark:text-black">
             <Image
                 src="/linkedin.png"
                 width={30}
@@ -446,7 +446,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/erick-pinedo-murgas-a27332272/">Linkedin</a>
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center dark:text-black">
             <Image
                 src="/logo-instagram-black and white.avif"
                 width={30}
@@ -456,7 +456,7 @@ export default function Home() {
             />
             <a href="https://www.instagram.com/erickferpinedo/">Instagram</a>
         </div>
-    <div className="flex items-center">
+    <div className="flex items-center dark:text-black">
     <Image
                 src="/github.png"
                 width={30}
