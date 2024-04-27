@@ -42,12 +42,16 @@ export default function Home() {
 
           {/* <h2 className="mb-4 mt-4"><span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Full Stack Developer</span></h2> */}
           <div className="mb-4 mt-4 flex flex-row">
-            <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Downloadd CV</button>
-            <button type="button"  className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700" >Contact Info</button> <a></a>
+           <a href="">
+           <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Downloadd CV</button>
+           </a>
             
+            <a href="#Contact">
+            <button type="button"  className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700" >Contact Info</button>
+            </a>
 
           </div>
-          <div className="mb-4 mt-4 flex flex-row justify-between">
+          <div className="mb-4 mt-4 flex flex-row justify-between details-container flex-1 bg-white p-4 md:p-6 pl-4 md:pl-6 rounded-2xl border border-gray-300">
               <a href="https://www.linkedin.com/in/erick-pinedo-murgas-a27332272/">
               <Image
               src="/linkedin.png"
@@ -179,7 +183,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Html/Css</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -193,7 +197,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Tailwind Css</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -207,7 +211,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Javascript</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -223,7 +227,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Next.js</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -237,7 +241,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Git Actions</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -251,7 +255,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">React</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -276,7 +280,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Java(SpringBoot)</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -290,7 +294,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">MySQL</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -304,7 +308,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Node.JS</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -320,7 +324,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">PHP(Laravel)</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -334,7 +338,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Firebase</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -348,7 +352,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Html</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Docker</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -421,6 +425,62 @@ export default function Home() {
 
 </div>
 
+<div className="flex flex-col md:flex-row ">
+<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+<div className="w-full flex flex-col justify-center items-center">
+<Image
+    src="/comingsoon1.jpg"
+    width={300}
+    height={200}
+    alt="Picture of the author"
+    className="ml-2 mr-2" />
+</div>
+<div className="w-full flex flex-col justify-center items-center">
+<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project four</h1>
+</div>
+<div className="w-full flex justify-center items-center">
+  <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+  <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+</div>
+
+</div>
+<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+<div className="w-full flex flex-col justify-center items-center">
+<Image
+    src="/comingsoon1.jpg"
+    width={300}
+    height={200}
+    alt="Picture of the author"
+    className="ml-2 mr-2" />
+</div>
+<div className="w-full flex flex-col justify-center items-center">
+<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project five</h1>
+</div>
+<div className="w-full flex justify-center items-center">
+  <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+  <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+</div>
+</div>
+<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+<div className="w-full flex flex-col justify-center items-center">
+<Image
+    src="/comingsoon1.jpg"
+    width={300}
+    height={200}
+    alt="Picture of the author"
+    className="ml-2 mr-2" />
+</div>
+<div className="w-full flex flex-col justify-center items-center">
+<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project six</h1>
+</div>
+<div className="w-full flex justify-center items-center">
+  <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+  <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+</div>
+</div>
+
+</div>
+
 <div> 
 <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center ">
 <p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400"></small>Get In Touch</p>
@@ -433,18 +493,21 @@ export default function Home() {
 
 <div className="details-container flex-1 bg-white p-4 md:p-6 pl-4 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2 justify-between">
     <div className="mb-4 mt-8 md:mt-0 flex flex-col md:flex-row lg:flex-row justify-between">
-        <div className="flex items-center mb-2 md:mb-0 dark:text-black">
+        <div className="flex items-center mb-2 md:mb-0 dark:text-black mt-5">
+            <a href="mailto:erickfprogrammer@gmail.com">
             <Image
                 src="/email.png"
                 width={30}
                 height={30}
                 alt="Picture of the author"
-                className="ml-2 mr-2"
+                className="ml-2 mr-2 "
             />
+            </a>
             <a href="mailto:erickfprogrammer@gmail.com">erickfprogrammer@gmail.com</a>
         </div>
 
         <div className="flex items-center mb-2 md:mb-0 dark:text-black mt-5">
+            <a href="https://www.linkedin.com/in/erick-pinedo-murgas-a27332272/">
             <Image
                 src="/linkedin.png"
                 width={30}
@@ -452,37 +515,44 @@ export default function Home() {
                 alt="Picture of the author"
                 className="ml-2 mr-2"
             />
+            </a>
             <a href="https://www.linkedin.com/in/erick-pinedo-murgas-a27332272/">Linkedin</a>
         </div>
 
         <div className="flex items-center dark:text-black mt-5">
-            <Image
+           <a href="https://www.instagram.com/erickferpinedo/">
+           <Image
                 src="/logo-instagram-black and white.avif"
                 width={30}
                 height={30}
                 alt="Picture of the author"
                 className="ml-2 mr-2"
             />
+           </a>
             <a href="https://www.instagram.com/erickferpinedo/">Instagram</a>
         </div>
     <div className="flex items-center dark:text-black mt-5">
-    <Image
+      <a href="https://github.com/Erickferpinedo">
+      <Image
                 src="/github.png"
                 width={30}
                 height={30}
                 alt="Picture of the author"
                 className="ml-2 mr-2"
             />
+      </a>
             <a href="https://github.com/Erickferpinedo">Github</a>
         </div>
         <div className="flex items-center dark:text-black mt-5">
-    <Image
+          <a href="/https://wa.me/17862006991">
+          <Image
                 src="/whatsaapimage.jpg"
                 width={30}
                 height={30}
                 alt="Picture of the author"
                 className="ml-2 mr-2"
             />
+          </a>
             <a href="https://wa.me/17862006991">WhatsApp</a>
         </div>
     </div>
