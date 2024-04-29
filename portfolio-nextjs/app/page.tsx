@@ -43,7 +43,7 @@ export default function Home() {
           {/* <h2 className="mb-4 mt-4"><span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Full Stack Developer</span></h2> */}
           <div className="mb-4 mt-4 flex flex-row">
            <a href="">
-           <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Downloadd CV</button>
+           <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Resume</button>
            </a>
             
             <a href="#Contact">
@@ -170,7 +170,7 @@ export default function Home() {
   <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
     <div >
       <div className="w-full flex flex-col justify-center items-center">
-      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Front-End Development</h1>
+      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Languages</h1>
       </div>
      
      <div className="mb-4 mt-4 flex flex-col md:flex-row lg:flex-row justify-between">
@@ -215,6 +215,20 @@ export default function Home() {
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
+
+<article className="flex flex-row items-start">
+  <Image
+    src="/checkmark.png"
+    width={30}
+    height={30}
+    alt="Picture of the author"
+    className="ml-2 mr-2"
+  />
+  <div className="flex flex-col">
+    <h3 className="text-left text-lg font-bold dark:text-black">Java</h3>
+    <p className="text-left dark:text-black">Experienced</p>
+  </div>
+</article>
      </div>
 
      <div className="mb-4 mt-4 flex flex-col md:flex-row lg:flex-row justify-between">
@@ -227,60 +241,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Next.js</h3>
-    <p className="text-left dark:text-black">Experienced</p>
-  </div>
-</article>
-
-<article className="flex flex-row items-start">
-  <Image
-    src="/checkmark.png"
-    width={30}
-    height={30}
-    alt="Picture of the author"
-    className="ml-2 mr-2"
-  />
-  <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Git Actions</h3>
-    <p className="text-left dark:text-black">Experienced</p>
-  </div>
-</article>
-
-<article className="flex flex-row items-start">
-  <Image
-    src="/checkmark.png"
-    width={30}
-    height={30}
-    alt="Picture of the author"
-    className="ml-2 mr-2"
-  />
-  <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">React</h3>
-    <p className="text-left dark:text-black">Experienced</p>
-  </div>
-</article>
-     </div>
-      
-
-
-    </div>
-  </div>
-
-  <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2">
-    <div className="w-full flex flex-col justify-center items-center">
-      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white">Back-End Development</h1>
-    </div>
-    <div className="mb-4 mt-4 flex flex-col md:flex-row lg:flex-row justify-between">
-     <article className="flex flex-row items-start">
-  <Image
-    src="/checkmark.png"
-    width={30}
-    height={30}
-    alt="Picture of the author"
-    className="ml-2 mr-2"
-  />
-  <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Java(SpringBoot)</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Php</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -308,7 +269,87 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Node.JS</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Typescript</h3>
+    <p className="text-left dark:text-black">Experienced</p>
+  </div>
+</article>
+<article className="flex flex-row items-start">
+  <Image
+    src="/checkmark.png"
+    width={30}
+    height={30}
+    alt="Picture of the author"
+    className="ml-2 mr-2"
+  />
+  <div className="flex flex-col">
+    <h3 className="text-left text-lg font-bold dark:text-black">Swift</h3>
+    <p className="text-left dark:text-black">Experienced</p>
+  </div>
+</article>
+     </div>
+      
+
+
+    </div>
+  </div>
+
+  <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2">
+    <div className="w-full flex flex-col justify-center items-center">
+      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Technologies</h1>
+    </div>
+    <div className="mb-4 mt-4 flex flex-col md:flex-row lg:flex-row justify-between">
+     <article className="flex flex-row items-start">
+  <Image
+    src="/checkmark.png"
+    width={30}
+    height={30}
+    alt="Picture of the author"
+    className="ml-2 mr-2"
+  />
+  <div className="flex flex-col">
+    <h3 className="text-left text-lg font-bold dark:text-black">SpringBoot</h3>
+    <p className="text-left dark:text-black">Experienced</p>
+  </div>
+</article>
+
+<article className="flex flex-row items-start">
+  <Image
+    src="/checkmark.png"
+    width={30}
+    height={30}
+    alt="Picture of the author"
+    className="ml-2 mr-2"
+  />
+  <div className="flex flex-col">
+    <h3 className="text-left text-lg font-bold dark:text-black">Next.JS</h3>
+    <p className="text-left dark:text-black">Experienced</p>
+  </div>
+</article>
+
+<article className="flex flex-row items-start">
+  <Image
+    src="/checkmark.png"
+    width={30}
+    height={30}
+    alt="Picture of the author"
+    className="ml-2 mr-2"
+  />
+  <div className="flex flex-col">
+    <h3 className="text-left text-lg font-bold dark:text-black">React</h3>
+    <p className="text-left dark:text-black">Experienced</p>
+  </div>
+</article>
+
+<article className="flex flex-row items-start">
+  <Image
+    src="/checkmark.png"
+    width={30}
+    height={30}
+    alt="Picture of the author"
+    className="ml-2 mr-2"
+  />
+  <div className="flex flex-col">
+    <h3 className="text-left text-lg font-bold dark:text-black">Git actions</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -324,7 +365,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">PHP(Laravel)</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Laravel</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -352,7 +393,21 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Docker</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Git</h3>
+    <p className="text-left dark:text-black">Experienced</p>
+  </div>
+</article>
+
+<article className="flex flex-row items-start">
+  <Image
+    src="/checkmark.png"
+    width={30}
+    height={30}
+    alt="Picture of the author"
+    className="ml-2 mr-2"
+  />
+  <div className="flex flex-col">
+    <h3 className="text-left text-lg font-bold dark:text-black">Bootstrap</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -558,10 +613,12 @@ export default function Home() {
     </div>
 </div>
 
+<footer className="flex items-center justify-center w-full bg-white p-4 text-sm text-gray-500 mt-20 dark:text-black ">
 
-<div className="flex items-center justify-center w-full bg-white p-4 text-sm text-gray-500 mt-20">
     Copyright © 2023 Erick Pinedo. All Rights Reserved.
-</div>
+
+</footer>
+
 
     </main>
 
