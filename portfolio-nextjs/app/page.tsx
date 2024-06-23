@@ -20,7 +20,7 @@ export default function Home() {
 
 
       {/* intro */}
-      <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
+      <div className="flex flex-col justify-center items-center md:flex-row lg:flex-row justify-center items-center">
         {/* image */}
         <div style={{ borderRadius: '400px', overflow: 'hidden' }}
           className="relative h-44 w-44 md:h-96 md:w-96 lg:h-96 lg:w-96">
@@ -438,8 +438,14 @@ export default function Home() {
 <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project One</h1>
 </div>
 <div className="w-full flex justify-center items-center">
+  <a href="https://github.com/Erickferpinedo/CholesTeamWeb">
   <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+
+  </a>
+  <a href="https://choles-team.web.app/">
   <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+  </a>
+ 
 </div>
 
 </div>
