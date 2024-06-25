@@ -42,7 +42,7 @@ export default function Home() {
 
           {/* <h2 className="mb-4 mt-4"><span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Full Stack Developer</span></h2> */}
           <div className="mb-4 mt-4 flex flex-row">
-           <a href="/Resume.pdf">
+           <a href="/ResumeErickP.pdf">
            <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Resume</button>
            </a>
             
@@ -71,7 +71,7 @@ export default function Home() {
             
               <a href="https://www.instagram.com/erickferpinedo/">
               <Image
-              src="/logo-instagram-black and white.avif"
+              src="/instagram.png"
               width={30}
               height={30}
               alt="Picture of the author"
@@ -79,7 +79,7 @@ export default function Home() {
               </a>
               <a href="https://wa.me/17862006991">
               <Image
-                src="/whatsaapimage.jpg"
+                src="/whatsapp.png"
                 width={30}
                 height={30}
                 alt="Picture of the author"
@@ -114,7 +114,7 @@ export default function Home() {
        <div className="w-full flex flex-col 
             justify-center items-center">
      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Experience </h1>
-     <h1 className="font-medium text-lg text-gray-500 dark:text-gray-400">1 + Years Of Experience</h1>
+     <h1 className="font-medium text-lg text-gray-500 dark:text-gray-400">3 + Years Of Experience</h1>
     <h1 className="font-medium text-lg text-gray-500 dark:text-gray-400">Full-Stack Development</h1>
     </div>
     </div>
@@ -425,12 +425,12 @@ export default function Home() {
 </div>
 </div>
 <div className="flex flex-col md:flex-row ">
-<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+<div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
 <div className="w-full flex flex-col justify-center items-center">
 <Image
-    src="/fotoP.png"
+    src="/idea.png"
     width={600}
-    height={200}
+    height={400}
     alt="Picture of the author"
     className="ml-2 mr-2 py-12" />
 </div>
@@ -449,7 +449,7 @@ export default function Home() {
 </div>
 
 </div>
-<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+<div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
 <div className="w-full flex flex-col justify-center items-center">
 <Image
     src="/comingsoon1.jpg"
@@ -466,7 +466,7 @@ export default function Home() {
   <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
 </div>
 </div>
-<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+<div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
 <div className="w-full flex flex-col justify-center items-center">
 <Image
     src="/comingsoon1.jpg"
@@ -487,7 +487,7 @@ export default function Home() {
 </div>
 
 <div className="flex flex-col md:flex-row ">
-<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+<div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
 <div className="w-full flex flex-col justify-center items-center">
 <Image
     src="/comingsoon1.jpg"
@@ -505,7 +505,7 @@ export default function Home() {
 </div>
 
 </div>
-<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+<div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
 <div className="w-full flex flex-col justify-center items-center">
 <Image
     src="/comingsoon1.jpg"
@@ -522,7 +522,7 @@ export default function Home() {
   <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
 </div>
 </div>
-<div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
+<div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
 <div className="w-full flex flex-col justify-center items-center">
 <Image
     src="/comingsoon1.jpg"
@@ -552,9 +552,9 @@ export default function Home() {
 </div>
 
 
-<div className="details-container flex-1 bg-white p-4 md:p-6 pl-4 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2 justify-between">
+<div className="details-container flex-1  p-4 md:p-6 pl-4 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2 justify-between">
     <div className="mb-4 mt-8 md:mt-0 flex flex-col md:flex-row lg:flex-row justify-between">
-        <div className="flex items-center mb-2 md:mb-0 dark:text-black mt-5">
+        <div className="flex items-center mb-2 md:mb-0 dark:text-white mt-5">
             <a href="mailto:erickfprogrammer@gmail.com">
             <Image
                 src="/email.png"
@@ -567,7 +567,7 @@ export default function Home() {
             <a href="mailto:erickfprogrammer@gmail.com">erickfprogrammer@gmail.com</a>
         </div>
 
-        <div className="flex items-center mb-2 md:mb-0 dark:text-black mt-5">
+        <div className="flex items-center mb-2 md:mb-0 dark:text-white mt-5">
             <a href="https://www.linkedin.com/in/erick-pinedo-murgas-a27332272/">
             <Image
                 src="/linkedin.png"
@@ -580,10 +580,10 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/erick-pinedo-murgas-a27332272/">Linkedin</a>
         </div>
 
-        <div className="flex items-center dark:text-black mt-5">
+        <div className="flex items-center dark:text-white mt-5">
            <a href="https://www.instagram.com/erickferpinedo/">
            <Image
-                src="/logo-instagram-black and white.avif"
+                src="/instagram.png"
                 width={30}
                 height={30}
                 alt="Picture of the author"
@@ -592,7 +592,7 @@ export default function Home() {
            </a>
             <a href="https://www.instagram.com/erickferpinedo/">Instagram</a>
         </div>
-    <div className="flex items-center dark:text-black mt-5">
+    <div className="flex items-center dark:text-white mt-5">
       <a href="https://github.com/Erickferpinedo">
       <Image
                 src="/github.png"
@@ -604,14 +604,14 @@ export default function Home() {
       </a>
             <a href="https://github.com/Erickferpinedo">Github</a>
         </div>
-        <div className="flex items-center dark:text-black mt-5">
+        <div className="flex items-center dark:text-white mt-5">
           <a href="/https://wa.me/17862006991">
           <Image
-                src="/whatsaapimage.jpg"
+                src="/whatsapp.png"
                 width={30}
                 height={30}
                 alt="Picture of the author"
-                className="ml-2 mr-2"
+                className="ml-2 mr-2 dark:text-white "
             />
           </a>
             <a href="https://wa.me/17862006991">WhatsApp</a>
@@ -619,7 +619,7 @@ export default function Home() {
     </div>
 </div>
 
-<footer className="flex items-center justify-center w-full bg-white p-4 text-sm text-gray-500 mt-20 dark:text-black ">
+<footer className="flex items-center justify-center w-full  p-4 text-sm text-gray-500 mt-20 dark:text-white ">
 
     Copyright © 2023 Erick Pinedo. All Rights Reserved.
 
