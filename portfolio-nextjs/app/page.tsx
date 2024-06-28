@@ -91,9 +91,9 @@ export default function Home() {
         </div>
       </div>
      <div id="about" className="w-full flex flex-col 
-        justify-center items-center" >
-<p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Get to Know More </small></p>
-          <h1 className="text-4xl font-bold dark:text-white">About Me </h1>
+        justify-center items-center pt-12" >
+<p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400 ">Get to Know More </small></p>
+          <h1 className="text-4xl font-bold dark:text-white pb-12">About Me </h1>
      </div>
 <div>
 <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
@@ -158,12 +158,12 @@ export default function Home() {
     </div>
 
 <div id="Experience">
-<div  className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
+<div  className="flex flex-col md:flex-row lg:flex-row justify-center items-center py-6">
 <p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Explore My</small></p>
-
 </div >
-<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
+<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center pb-6">
 <h1 className="text-4xl font-bold dark:text-white mb-3">Experience </h1>
+
 </div>
 
 <div className="flex flex-col md:flex-row ">
@@ -418,13 +418,12 @@ export default function Home() {
 
 
 <div id="Projects">
-<div id="about" className="w-full flex flex-col 
-        justify-center items-center" >
+<div id="Projects" className="w-full flex flex-col py-12 justify-center items-center" >
 <p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Browse My </small></p>
           <h1 className="text-4xl font-bold dark:text-white">Projects </h1>
 </div>
 </div>
-<div className="flex flex-col md:flex-row ">
+<div className="flex flex-col md:flex-row py-12 ">
 <div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
 <div className="w-full flex flex-col justify-center items-center">
 <Image
@@ -452,19 +451,26 @@ export default function Home() {
 <div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
 <div className="w-full flex flex-col justify-center items-center">
 <Image
-    src="/comingsoon1.jpg"
-    width={300}
-    height={200}
+    src="/idea.png"
+    width={600}
+    height={400}
     alt="Picture of the author"
-    className="ml-2 mr-2" />
+    className="ml-2 mr-2 py-12" />
 </div>
 <div className="w-full flex flex-col justify-center items-center">
 <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project two</h1>
 </div>
 <div className="w-full flex justify-center items-center">
+  <a href="https://github.com/Erickferpinedo/JP_ING_SAS">
   <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+
+  </a>
+  <a href="https://jp-ing-sas.web.app">
   <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+  </a>
+ 
 </div>
+
 </div>
 <div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
 <div className="w-full flex flex-col justify-center items-center">
@@ -486,7 +492,7 @@ export default function Home() {
 
 </div>
 
-<div className="flex flex-col md:flex-row ">
+<div className="flex flex-col md:flex-row hidden ">
 <div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
 <div className="w-full flex flex-col justify-center items-center">
 <Image
@@ -543,17 +549,17 @@ export default function Home() {
 </div>
 
 <div> 
-<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center ">
+<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center py-6">
 <p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400"></small>Get In Touch</p>
 </div>
-<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
+<div className="flex flex-col md:flex-row lg:flex-row justify-center items-center pb-6">
 <h1 className="text-4xl font-bold dark:text-white mb-3" id="Contact">Contact Me</h1>
 </div>
 </div>
 
 
-<div className="details-container flex-1  p-4 md:p-6 pl-4 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2 justify-between">
-    <div className="mb-4 mt-8 md:mt-0 flex flex-col md:flex-row lg:flex-row justify-between">
+<div className=" details-container flex-1  p-4 md:p-6 pl-4 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2 justify-between ">
+    <div className="mb-4 mt-8 md:mt-0 flex flex-col md:flex-row lg:flex-row justify-between py-12">
         <div className="flex items-center mb-2 md:mb-0 dark:text-white mt-5">
             <a href="mailto:erickfprogrammer@gmail.com">
             <Image
