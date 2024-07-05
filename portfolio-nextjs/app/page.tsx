@@ -307,7 +307,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">SpringBoot</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Express.js</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -349,7 +349,7 @@ export default function Home() {
     className="ml-2 mr-2"
   />
   <div className="flex flex-col">
-    <h3 className="text-left text-lg font-bold dark:text-black">Git actions</h3>
+    <h3 className="text-left text-lg font-bold dark:text-black">Angular</h3>
     <p className="text-left dark:text-black">Experienced</p>
   </div>
 </article>
@@ -420,77 +420,125 @@ export default function Home() {
 <div id="Projects">
 <div id="Projects" className="w-full flex flex-col py-12 justify-center items-center" >
 <p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Browse My </small></p>
-          <h1 className="text-4xl font-bold dark:text-white">Projects </h1>
-</div>
-</div>
-<div className="flex flex-col md:flex-row py-12 ">
-<div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
-<div className="w-full flex flex-col justify-center items-center">
-<Image
-    src="/idea.png"
-    width={600}
-    height={400}
-    alt="Picture of the author"
-    className="ml-2 mr-2 py-12" />
-</div>
-<div className="w-full flex flex-col justify-center items-center">
-<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project One</h1>
-</div>
-<div className="w-full flex justify-center items-center">
-  <a href="https://github.com/Erickferpinedo/CholesTeamWeb">
-  <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
-
-  </a>
-  <a href="https://choles-team.web.app/">
-  <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
-  </a>
- 
-</div>
-
-</div>
-<div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
-<div className="w-full flex flex-col justify-center items-center">
-<Image
-    src="/idea.png"
-    width={600}
-    height={400}
-    alt="Picture of the author"
-    className="ml-2 mr-2 py-12" />
-</div>
-<div className="w-full flex flex-col justify-center items-center">
-<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project two</h1>
-</div>
-<div className="w-full flex justify-center items-center">
-  <a href="https://github.com/Erickferpinedo/JP_ING_SAS">
-  <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
-
-  </a>
-  <a href="https://jp-ing-sas.web.app">
-  <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
-  </a>
- 
-</div>
-
-</div>
-<div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
-<div className="w-full flex flex-col justify-center items-center">
-<Image
-    src="/comingsoon1.jpg"
-    width={300}
-    height={200}
-    alt="Picture of the author"
-    className="ml-2 mr-2" />
-</div>
-<div className="w-full flex flex-col justify-center items-center">
-<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project three</h1>
-</div>
-<div className="w-full flex justify-center items-center">
-  <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
-  <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+          <h1 className="text-4xl font-bold dark:text-white">freelance Projects </h1>
 </div>
 </div>
 
+
+<div className="flex flex-col items-center sm:flex-row justify-around py-12 space-y-6 sm:space-y-0 sm:space-x-6">
+  <div className="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow cursor-pointer transition transform hover:scale-105 hover:shadow-xl max-w-full h-auto min-h-[650px]  dark:border-gray-700">
+    <a href="#">
+      <img
+        src="/LogoCholes.png"
+        width={200}
+        alt="Picture of the author"
+        className="w-full h-48 object-cover rounded-t-lg"
+      />
+    </a>
+    <div className="p-5 flex flex-col justify-between h-full">
+      <div>
+        <a href="#">
+          <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-900 ">Project one</h5>
+        </a>
+        <p className="mb-3 text-center font-normal text-gray-700 dark:text-gray-600 "> I developed a comprehensive and fully responsive website for the Choles Team Basketball Club, utilizing Next.js, Tailwind CSS, JavaScript, and TypeScript. This informative platform features detailed sections about the club and a user registration form connected to Firebase, allowing users to sign up and receive more information. The website, which I designed and developed, ensures a seamless experience across all devices and is actively used by numerous users to stay informed about the club.</p>
+      </div>
+      <div className="w-full flex justify-center items-center mt-12">
+        <a href="https://github.com/Erickferpinedo/CholesTeamWeb">
+          <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+        </a>
+        <a href="https://choles-team.web.app/">
+          <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div className="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow cursor-pointer transition transform hover:scale-105 hover:shadow-xl max-w-full h-auto min-h-[550px] dark:bg-white dark:border-gray-700">
+    <a href="#">
+      <img
+        src="/LogoJP.png"
+        width={200}
+        alt="Picture of the author"
+        className="w-full h-48 object-cover "
+      />
+    </a>
+    <div className="p-5 flex flex-col justify-between h-full">
+      <div>
+        <a href="#">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-gray-900">Project two</h5>
+        </a>
+        <p className="mb-3 text-center font-normal text-gray-700 dark:text-gray-600">I created a detailed and fully responsive website for JP Ingeniería-Construcciones Sas, a civil engineering firm, using Next.js, Tailwind CSS, JavaScript, and TypeScript. This site includes comprehensive information about the company's offerings and features a user-friendly form connected to Firebase, allowing visitors to submit project-related questions. The website, which I both designed and developed, provides an optimal experience on all devices and is frequently utilized by many users to engage with the business and access professional insights.</p>
+      </div>
+      <div className="w-full flex justify-center mt-7">
+        <a href="https://github.com/Erickferpinedo/JP_ING_SAS">
+          <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+        </a>
+        <a href="https://jp-ing-sas.web.app">
+          <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div className=" hidden flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow cursor-pointer transition transform hover:scale-105 hover:shadow-xl max-w-full h-auto min-h-[550px] dark:bg-white dark:border-gray-700">
+    <a href="#">
+      <img
+        src="/comingsoon1.jpg"
+        width={400}
+        alt="Picture of the author"
+        className="w-full h-48 object-cover rounded-t-lg"
+      />
+    </a>
+    <div className="p-5 flex flex-col justify-between h-full">
+      <div>
+        <a href="#">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-black">Project three</h5>
+        </a>
+        <p className="mb-3 font-normal text-center text-gray-700 dark:text-gray-600">Nuestro equipo de entrenadores expertos y programas de alta calidad aseguran que tu marca se asocie con la excelencia y el profesionalismo, brindando reconocimiento y prestigio</p>
+      </div>
+      <div className="w-full flex justify-center items-center mt-12">
+        <a href="https://github.com/Erickferpinedo/JP_ING_SAS">
+          <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+        </a>
+        <a href="https://jp-ing-sas.web.app">
+          <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div className=" hidden flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow cursor-pointer transition transform hover:scale-105 hover:shadow-xl max-w-full h-auto min-h-[550px] dark:bg-white dark:border-gray-700">
+    <a href="#">
+      <img
+        src="/idea.png"
+        width={400}
+        alt="Picture of the author"
+        className="w-full h-48 object-cover rounded-t-lg"
+      />
+    </a>
+    <div className="p-5 flex flex-col justify-between h-full">
+      <div>
+        <a href="#">
+          <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-black">Eventos y Torneos</h5>
+        </a>
+        <p className="mb-3 font-normal text-center text-gray-700 dark:text-gray-600">Participa activamente en nuestros eventos y torneos, obteniendo un espacio exclusivo para mostrar tu marca a nuestra audiencia y conectarte con la comunidad de baloncesto local</p>
+      </div>
+      <div className="w-full flex justify-center items-center mt-12">
+        <a href="https://github.com/Erickferpinedo/JP_ING_SAS">
+          <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
+        </a>
+        <a href="https://jp-ing-sas.web.app">
+          <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Live Demo</button>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+
+
 
 <div className="flex flex-col md:flex-row hidden ">
 <div className="details-container flex-1  p-6 pl-8 md:pl-6 rounded-2xl border border-gray-900 text-center mt-4 md:mt-2 md:mr-2">
