@@ -8,7 +8,7 @@ export default function Home() {
       {/* header */}
       <div className="w-full p-0 md:p-5 lg:p-5 mb-4 md:mb-0 lg:mb-0 flex justify-around flex-col md:flex-row lg:flex-row items-center">
         <div className="w-full md:w-2/5 lg:w-2/5 mb-4 md:mb-0 lg:mb:0 flex justify-center">
-          <h2 className="text-4xl font-extrabold dark:text-white">Erick Pinedo</h2>
+          <p className="text-4xl font-extrabold dark:text-white">Erick Pinedo</p>
         </div>
         <div className="w-full md:w-2/5 flex justify-between ">
           <a href="#about">About</a>
@@ -28,7 +28,7 @@ export default function Home() {
             src="/profile-rounded.jpg"
             // width={500}
             // height={500}
-            alt="Picture of the author"
+            alt=" picture from Erick pinedo"
             layout="fill"
             className="object-cover"
             />
@@ -39,7 +39,7 @@ export default function Home() {
 
           <p className="mb-5 mt-5"><small className="font-medium text-lg text-gray-500 dark:text-gray-400">Hello I'm</small></p>
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Erick Pinedo </h1>
-          <h1 className="mb-5 mt-5 flex items-center text-5xl font-extrabold dark:text-white"><span className="bg-blue-100 py-1 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded-xl dark:bg-blue-200 dark:text-blue-800 ms-2">Full Stack Developer</span></h1>
+          <h2 className="mb-5 mt-5 flex items-center text-5xl font-extrabold dark:text-white"><span className="bg-blue-100 py-1 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded-xl dark:bg-blue-200 dark:text-blue-800 ms-2">Full Stack Developer</span></h2>
 
           {/* <h2 className="mb-4 mt-4"><span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Full Stack Developer</span></h2> */}
           <div className="mb-4 mt-4 flex flex-row">
@@ -58,7 +58,7 @@ export default function Home() {
               src="/linkedin.png"
               width={30}
               height={30}
-              alt="Picture of the author"
+              alt="Erick's Linkedin"
               className="ml-2 mr-2" />
               </a>
               <a href="https://github.com/Erickferpinedo">
@@ -66,7 +66,7 @@ export default function Home() {
               src="/github.png"
               width={30}
               height={30}
-              alt="Picture of the author"
+              alt="Erick's Github"
               className="ml-2 mr-2" />
               </a>
             
@@ -75,7 +75,7 @@ export default function Home() {
               src="/instagram.png"
               width={30}
               height={30}
-              alt="Picture of the author"
+              alt="Erick's Instagram"
               className="ml-2 mr-2" />
               </a>
               <a href="https://wa.me/17862006991">
@@ -83,7 +83,7 @@ export default function Home() {
                 src="/whatsapp.png"
                 width={30}
                 height={30}
-                alt="Picture of the author"
+                alt="Erick's Whatsapp"
                 className="ml-2 mr-2"
             />
               </a>
@@ -114,9 +114,9 @@ export default function Home() {
        </div>
        <div className="w-full flex flex-col 
             justify-center items-center">
-     <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Experience </h1>
-     <h1 className="font-medium text-lg text-gray-500 dark:text-gray-400">3 + Years Of Experience</h1>
-    <h1 className="font-medium text-lg text-gray-500 dark:text-gray-400">Full-Stack Development</h1>
+     <h2 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Experience </h2>
+     <h3 className="font-medium text-lg text-gray-500 dark:text-gray-400">3 + Years Of Experience</h3>
+    <h4 className="font-medium text-lg text-gray-500 dark:text-gray-400">Full-Stack Development</h4>
     </div>
     </div>
     
@@ -133,9 +133,9 @@ export default function Home() {
        </div>
        <div className="w-full flex flex-col 
             justify-center items-center">
-     <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Education </h1>
-    <h1 className="font-medium text-lg text-gray-500 dark:text-gray-400">B.Sc. Bachelors Degree</h1>
-    <h1 className="font-medium text-lg text-gray-500 dark:text-gray-400">Information Technology</h1>
+     <h2 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Education </h2>
+    <h3 className="font-medium text-lg text-gray-500 dark:text-gray-400">B.Sc. Bachelors Degree</h3>
+    <h4 className="font-medium text-lg text-gray-500 dark:text-gray-400">Information Technology</h4>
     </div>
     
     </div>
@@ -155,15 +155,15 @@ export default function Home() {
 
     <div className="w-full flex flex-col 
         justify-center items-center">
-<h1 className="mb-5 mt-5 flex items-center text-5xl font-extrabold dark:text-white"><span className="text-center font-medium text-lg text-black dark:text-white">I'm Erick Pinedo, a driven Information Technology student deeply passionate about leveraging technology to solve real-world problems. As an active member and leader at FNUTech Club, I thrive in collaborative environments and enjoy exploring the latest advancements in IT. With a background in collegiate soccer, I bring a strong work ethic, teamwork skills, and a knack for time management to everything I do. Eager to apply my blend of technical knowledge and leadership experience to contribute positively to a forward-thinking organization.</span></h1>
+<p className="mb-5 mt-5 flex items-center text-5xl font-extrabold dark:text-white"><span className="text-center font-medium text-lg text-black dark:text-white">I'm Erick Pinedo, a driven Information Technology student deeply passionate about leveraging technology to solve real-world problems. As an active member and leader at FNUTech Club, I thrive in collaborative environments and enjoy exploring the latest advancements in IT. With a background in collegiate soccer, I bring a strong work ethic, teamwork skills, and a knack for time management to everything I do. Eager to apply my blend of technical knowledge and leadership experience to contribute positively to a forward-thinking organization.</span></p>
     </div>
 
 <div id="Experience">
 <div  className="flex flex-col md:flex-row lg:flex-row justify-center items-center py-6">
-<p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Explore My</small></p>
+<h2 className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Explore My</small></h2>
 </div >
 <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center pb-6">
-<h1 className="text-4xl font-bold dark:text-white mb-3">Experience </h1>
+<h3 className="text-4xl font-bold dark:text-white mb-3">Experience </h3>
 
 </div>
 
@@ -171,7 +171,7 @@ export default function Home() {
   <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
     <div >
       <div className="w-full flex flex-col justify-center items-center">
-      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Languages</h1>
+      <h3 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Languages</h3>
       </div>
      
      <div className="mb-4 mt-4 flex flex-col md:flex-row lg:flex-row justify-between">
@@ -296,7 +296,7 @@ export default function Home() {
 
   <div className="details-container flex-1 bg-white p-6 pl-8 md:pl-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2">
     <div className="w-full flex flex-col justify-center items-center">
-      <h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Technologies</h1>
+      <h3 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Technologies</h3>
     </div>
     <div className="mb-4 mt-4 flex flex-col md:flex-row lg:flex-row justify-between">
      <article className="flex flex-row items-start">
@@ -420,8 +420,8 @@ export default function Home() {
 
 <div id="Projects">
 <div id="Projects" className="w-full flex flex-col py-12 justify-center items-center" >
-<p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Browse My </small></p>
-          <h1 className="text-4xl font-bold dark:text-white"> Projects </h1>
+<h2 className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Browse My </small></h2>
+          <h3 className="text-4xl font-bold dark:text-white"> Projects </h3>
 </div>
 </div>
 
@@ -432,14 +432,14 @@ export default function Home() {
       <img
         src="/LogoCholes.png"
         width={200}
-        alt="Picture of the author"
+        alt="Chole's Team logo"
         className="w-full h-48 object-cover rounded-t-lg"
       />
     
     <div className="p-5 flex flex-col justify-between h-full">
       <div>
-        <a href="#">
-          <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-900 ">Project one</h5>
+        <a href="">
+          <h2 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-900 ">Project one</h2>
         </a>
         <p className="mb-3 text-center font-normal text-gray-700 dark:text-gray-600 "> I developed a comprehensive and fully responsive website for the Choles Team Basketball Club, utilizing Next.js, Tailwind CSS, JavaScript, and TypeScript. This informative platform features detailed sections about the club and a user registration form connected to Firebase, allowing users to sign up and receive more information. The website, which I designed and developed, ensures a seamless experience across all devices and is actively used by numerous users to stay informed about the club.</p>
       </div>
@@ -459,14 +459,14 @@ export default function Home() {
       <img
         src="/LogoJP.png"
         width={200}
-        alt="Picture of the author"
+        alt="JP Ingenieria-Construcciones Sas Logo"
         className="w-full h-48 object-cover "
       />
     
     <div className="p-5 flex flex-col justify-between h-full">
       <div>
         <a href="#">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-gray-900">Project two</h5>
+          <h2 className="mb-2 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-gray-900">Project two</h2>
         </a>
         <p className="mb-3 text-center font-normal text-gray-700 dark:text-gray-600">I created a detailed and fully responsive website for JP Ingeniería-Construcciones Sas, a civil engineering firm, using Next.js, Tailwind CSS, JavaScript, and TypeScript. This site includes comprehensive information about the company's offerings and features a user-friendly form connected to Firebase, allowing visitors to submit project-related questions. The website, which I both designed and developed, provides an optimal experience on all devices and is frequently utilized by many users to engage with the business and access professional insights.</p>
       </div>
@@ -570,7 +570,7 @@ export default function Home() {
     className="ml-2 mr-2" />
 </div>
 <div className="w-full flex flex-col justify-center items-center">
-<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project five</h1>
+<h2 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project five</h2>
 </div>
 <div className="w-full flex justify-center items-center">
   <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
@@ -587,7 +587,7 @@ export default function Home() {
     className="ml-2 mr-2" />
 </div>
 <div className="w-full flex flex-col justify-center items-center">
-<h1 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project six</h1>
+<h2 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white mt-4">Project six</h2>
 </div>
 <div className="w-full flex justify-center items-center">
   <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Github</button>
@@ -599,10 +599,10 @@ export default function Home() {
 
 <div> 
 <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center py-6">
-<p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400"></small>Get In Touch</p>
+<h2 className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400"></small>Get In Touch</h2>
 </div>
 <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center pb-6">
-<h1 className="text-4xl font-bold dark:text-white mb-3" id="Contact">Contact Me</h1>
+<h3 className="text-4xl font-bold dark:text-white mb-3" id="Contact">Contact Me</h3>
 </div>
 </div>
 
