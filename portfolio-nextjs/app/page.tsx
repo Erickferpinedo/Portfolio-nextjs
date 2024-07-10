@@ -22,7 +22,7 @@ export default function Home() {
       {/* intro */}
       <div className="flex flex-col justify-center items-center md:flex-row lg:flex-row justify-center items-center">
         {/* image */}
-        <div style={{ borderRadius: '400px', overflow: 'hidden' }}
+        <div style={{ borderRadius: '400px', overflow: 'hidden'  }}
           className="relative h-44 w-44 md:h-96 md:w-96 lg:h-96 lg:w-96">
           <Image
             src="/profile-rounded.jpg"
@@ -30,7 +30,8 @@ export default function Home() {
             // height={500}
             alt="Picture of the author"
             layout="fill"
-            objectFit="cover" />
+            className="object-cover"
+            />
         </div>
         {/* info */}
         <div className="w-full flex flex-col 
@@ -38,7 +39,7 @@ export default function Home() {
 
           <p className="mb-5 mt-5"><small className="font-medium text-lg text-gray-500 dark:text-gray-400">Hello I'm</small></p>
           <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Erick Pinedo </h1>
-          <h1 className="mb-5 mt-5 flex items-center text-5xl font-extrabold dark:text-white"><span className="bg-blue-100 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-2">Full Stack Developer</span></h1>
+          <h1 className="mb-5 mt-5 flex items-center text-5xl font-extrabold dark:text-white"><span className="bg-blue-100 py-1 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded-xl dark:bg-blue-200 dark:text-blue-800 ms-2">Full Stack Developer</span></h1>
 
           {/* <h2 className="mb-4 mt-4"><span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Full Stack Developer</span></h2> */}
           <div className="mb-4 mt-4 flex flex-row">
@@ -420,21 +421,21 @@ export default function Home() {
 <div id="Projects">
 <div id="Projects" className="w-full flex flex-col py-12 justify-center items-center" >
 <p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">Browse My </small></p>
-          <h1 className="text-4xl font-bold dark:text-white">freelance Projects </h1>
+          <h1 className="text-4xl font-bold dark:text-white"> Projects </h1>
 </div>
 </div>
 
 
 <div className="flex flex-col items-center sm:flex-row justify-around py-12 space-y-6 sm:space-y-0 sm:space-x-6">
   <div className="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow cursor-pointer transition transform hover:scale-105 hover:shadow-xl max-w-full h-auto min-h-[650px]  dark:border-gray-700">
-    <a href="#">
+    
       <img
         src="/LogoCholes.png"
         width={200}
         alt="Picture of the author"
         className="w-full h-48 object-cover rounded-t-lg"
       />
-    </a>
+    
     <div className="p-5 flex flex-col justify-between h-full">
       <div>
         <a href="#">
@@ -454,14 +455,14 @@ export default function Home() {
   </div>
 
   <div className="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow cursor-pointer transition transform hover:scale-105 hover:shadow-xl max-w-full h-auto min-h-[550px] dark:bg-white dark:border-gray-700">
-    <a href="#">
+    
       <img
         src="/LogoJP.png"
         width={200}
         alt="Picture of the author"
         className="w-full h-48 object-cover "
       />
-    </a>
+    
     <div className="p-5 flex flex-col justify-between h-full">
       <div>
         <a href="#">
@@ -612,13 +613,13 @@ export default function Home() {
             <a href="mailto:erickfprogrammer@gmail.com">
             <Image
                 src="/email.png"
-                width={30}
+                width={28}
                 height={30}
                 alt="Picture of the author"
                 className="ml-2 mr-2 "
             />
             </a>
-            <a href="mailto:erickfprogrammer@gmail.com">erickfprogrammer@gmail.com</a>
+            <a href="mailto:erickfprogrammer@gmail.com" className="">erickfprogrammer@gmail.com</a>
         </div>
 
         <div className="flex items-center mb-2 md:mb-0 dark:text-white mt-5">
