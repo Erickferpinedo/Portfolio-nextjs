@@ -8,7 +8,7 @@ const AboutMe = () => {
 <p className="mb-5 mt-5">          <small className="font-medium text-lg text-gray-500 dark:text-gray-400 ">Get to Know More </small></p>
           <h1 className="text-4xl font-bold dark:text-white ">About Me </h1>
      </div>
-     <div className="w-full flex flex-col justify-center items-center p-20">
+     <div className="w-full flex flex-col justify-center items-center p-5">
 <p className="  flex items-center text-5xl font-extrabold dark:text-white"><span className="text-center  font-medium text-lg  dark:text-white">I'm Erick Pinedo, a driven Information Technology student deeply passionate about leveraging technology to solve real-world problems. As an active member and leader at FNUTech Club, I thrive in collaborative environments and enjoy exploring the latest advancements in IT. With a background in collegiate soccer, I bring a strong work ethic, teamwork skills, and a knack for time management to everything I do. Eager to apply my blend of technical knowledge and leadership experience to contribute positively to a forward-thinking organization.</span></p>
     </div>
 <div>

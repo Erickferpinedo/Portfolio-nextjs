@@ -58,7 +58,7 @@ const Experience = () => {
           <article className="flex flex-row items-start mb-2 md:mb-0">
             <img src="/checkmark.png" width={30} height={30} alt="checkmark" className="ml-2 mr-2" />
             <div className="flex flex-col">
-              <h3 className="text-left text-lg font-bold dark:text-black">MySQL</h3>
+              <h3 className="text-left text-lg font-bold dark:text-black">SQL</h3>
               <p className="text-left dark:text-black">Experienced</p>
             </div>
           </article>
@@ -72,7 +72,7 @@ const Experience = () => {
           <article className="flex flex-row items-start mb-2 md:mb-0">
             <img src="/checkmark.png" width={30} height={30} alt="checkmark" className="ml-2 mr-2" />
             <div className="flex flex-col">
-              <h3 className="text-left text-lg font-bold dark:text-black">Swift</h3>
+              <h3 className="text-left text-lg font-bold dark:text-black">CSS</h3>
               <p className="text-left dark:text-black">Experienced</p>
             </div>
           </article>
@@ -83,7 +83,9 @@ const Experience = () => {
         <div className="w-full flex flex-col justify-center items-center">
           <h3 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Technologies</h3>
         </div>
+
         <div className="mb-4 mt-4 flex flex-col md:flex-row flex-wrap justify-between">
+
           <article className="flex flex-row items-start mb-2 md:mb-0">
             <img src="/checkmark.png" width={30} height={30} alt="checkmark" className="ml-2 mr-2" />
             <div className="flex flex-col">
@@ -91,6 +93,7 @@ const Experience = () => {
               <p className="text-left dark:text-black">Experienced</p>
             </div>
           </article>
+
           <article className="flex flex-row items-start mb-2 md:mb-0">
             <img src="/checkmark.png" width={30} height={30} alt="checkmark" className="ml-2 mr-2" />
             <div className="flex flex-col">
@@ -98,6 +101,7 @@ const Experience = () => {
               <p className="text-left dark:text-black">Experienced</p>
             </div>
           </article>
+
           <article className="flex flex-row items-start mb-2 md:mb-0">
             <img src="/checkmark.png" width={30} height={30} alt="checkmark" className="ml-2 mr-2" />
             <div className="flex flex-col">
@@ -105,6 +109,7 @@ const Experience = () => {
               <p className="text-left dark:text-black">Experienced</p>
             </div>
           </article>
+
           <article className="flex flex-row items-start mb-2 md:mb-0">
             <img src="/checkmark.png" width={30} height={30} alt="checkmark" className="ml-2 mr-2" />
             <div className="flex flex-col">
@@ -112,19 +117,36 @@ const Experience = () => {
               <p className="text-left dark:text-black">Experienced</p>
             </div>
           </article>
+
+          <article className="flex flex-row items-start mb-2 md:mb-0">
+            <img src="/checkmark.png" width={30} height={30} alt="checkmark" className="ml-2 mr-2" />
+            <div className="flex flex-col">
+              <h3 className="text-left text-lg font-bold dark:text-black">Node.js</h3>
+              <p className="text-left dark:text-black">Experienced</p>
+            </div>
+          </article>
         </div>
+
         <div className="mb-4 mt-4 flex flex-col md:flex-row flex-wrap justify-between">
           <article className="flex flex-row items-start mb-2 md:mb-0">
             <img src="/checkmark.png" width={30} height={30} alt="checkmark" className="ml-2 mr-2" />
             <div className="flex flex-col">
-              <h3 className="text-left text-lg font-bold dark:text-black">Laravel</h3>
+              <h3 className="text-left text-lg font-bold dark:text-black">MySQL</h3>
+              <p className="text-left dark:text-black">Experienced</p>
+            </div>
+          </article>
+
+          <article className="flex flex-row items-start mb-2 md:mb-0">
+            <img src="/checkmark.png" width={30} height={30} alt="checkmark" className="ml-2 mr-2" />
+            <div className="flex flex-col">
+              <h3 className="text-left text-lg font-bold dark:text-black">Figma</h3>
               <p className="text-left dark:text-black">Experienced</p>
             </div>
           </article>
           <article className="flex flex-row items-start mb-2 md:mb-0">
             <img src="/checkmark.png" width={30} height={30} alt="checkmark" className="ml-2 mr-2" />
             <div className="flex flex-col">
-              <h3 className="text-left text-lg font-bold dark:text-black">Firebase</h3>
+              <h3 className="text-left text-lg font-bold dark:text-black">GCP</h3>
               <p className="text-left dark:text-black">Experienced</p>
             </div>
           </article>
@@ -143,6 +165,7 @@ const Experience = () => {
             </div>
           </article>
         </div>
+
       </div>
     </div>
   </div>
