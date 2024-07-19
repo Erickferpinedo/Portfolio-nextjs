@@ -33,7 +33,7 @@ const AboutMe = () => {
        <div className="w-full flex flex-col 
             justify-center items-center">
      <h2 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">Experience </h2>
-     <h3 className="font-medium text-lg text-gray-500 dark:text-gray-400">3 + Years Of Experience</h3>
+     <h3 className="font-medium text-lg text-gray-500 dark:text-gray-400">1 + Years Of Experience</h3>
     <h4 className="font-medium text-lg text-gray-500 dark:text-gray-400">Full-Stack Development</h4>
     </div>
     </div>
