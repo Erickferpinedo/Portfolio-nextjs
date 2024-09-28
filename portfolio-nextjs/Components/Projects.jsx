@@ -18,11 +18,11 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center sm:flex-row justify-around py-12 space-y-6 sm:space-y-0 sm:space-x-6">
+      <div className="flex p-6 flex-col items-center sm:flex-row justify-around py-12 space-y-6 sm:space-y-0 sm:space-x-6">
         <div className="flex-grow max-w-sm bg-white border border-gray-200 rounded-lg shadow cursor-pointer transition transform hover:scale-105 hover:shadow-xl max-w-full h-auto min-h-[650px]  dark:border-gray-700">
           <img
             src="/LogoCholes.png"
-            width={200}
+            width={150}
             alt="Chole's Team logo"
             className="w-full h-48 object-cover rounded-t-lg"
           />

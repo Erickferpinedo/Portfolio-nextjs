@@ -16,7 +16,7 @@ const AboutMe = () => {
         </p>
         <h1 className="text-4xl font-bold dark:text-white ">About Me </h1>
       </div>
-      <div className="w-full flex flex-col justify-center items-center p-5">
+      <div className="w-full flex flex-col justify-center items-center p-8">
         <p className="  flex items-center text-5xl font-extrabold dark:text-white">
           <span className="text-center  font-medium text-lg  dark:text-white">
             I'm Erick Pinedo, a driven Information Technology student deeply
