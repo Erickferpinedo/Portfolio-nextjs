@@ -10,7 +10,7 @@ const Projects = () => {
         >
           <h2 className="mb-5 mt-5">
             {" "}
-            <small className="font-medium text-lg text-gray-500 dark:text-gray-400">
+            <small className="font-medium text-lg text-pink-600 dark:text-pink-400">
               Browse My{" "}
             </small>
           </h2>

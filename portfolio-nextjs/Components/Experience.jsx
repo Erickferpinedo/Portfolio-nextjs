@@ -5,7 +5,7 @@ const Experience = () => {
     <div id="Experience">
       <div className="flex flex-col justify-center items-center py-6">
         <h2 className="mb-5 mt-5">
-          <small className="font-medium text-lg text-gray-500 dark:text-gray-400">
+          <small className="font-medium text-lg text-pink-600 dark:text-pink-400">
             Explore My
           </small>
         </h2>

@@ -1,35 +1,29 @@
-"Use client";
+"use client";
 
 const AboutMe = () => {
   return (
-    <div>
-      <div
-        id="about"
-        className="w-full flex flex-col 
-        justify-center items-center pt-5"
-      >
-        <p className="mb-5 mt-5">
-          {" "}
-          <small className="font-medium text-lg text-gray-500 dark:text-gray-400 ">
-            Get to Know More{" "}
-          </small>
-        </p>
-        <h1 className="text-4xl font-bold dark:text-white ">About Me </h1>
-      </div>
-      <div className="w-full flex flex-col justify-center items-center p-8">
-        <p className="  flex items-center text-5xl font-extrabold dark:text-white">
-          <span className="text-center  font-medium text-lg  dark:text-white">
-            I'm Erick Pinedo, a driven Information Technology student deeply
-            passionate about leveraging technology to solve real-world problems.
-            As an active member and leader at FNUTech Club, I thrive in
-            collaborative environments and enjoy exploring the latest
-            advancements in IT. With a background in collegiate soccer, I bring
-            a strong work ethic, teamwork skills, and a knack for time
-            management to everything I do. Eager to apply my blend of technical
-            knowledge and leadership experience to contribute positively to a
-            forward-thinking organization.
-          </span>
-        </p>
+    <div className="">
+      <div className="w-full  dark:from-gray-800 dark:to-gray-900 py-6">
+        <section
+          id="about"
+          className="w-full max-w-screen-lg mx-auto flex flex-col justify-center items-center text-center px-4 py-8"
+        >
+          <p className="text-md font-medium text-pink-600 dark:text-pink-400 mb-2">
+            Get to Know Me
+          </p>
+          <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
+            About Me
+          </h1>
+          <p className="text-xl font-light text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl">
+            I'm Erick Pinedo, a passionate Information Technology student who
+            loves solving real-world problems using cutting-edge technology. I
+            thrive in collaborative environments and am constantly exploring new
+            IT trends. With leadership experience at FNUTech Club and a
+            background in collegiate soccer, I bring strong teamwork, time
+            management, and dedication to every project. I’m excited to apply my
+            skills to help innovative organizations grow.
+          </p>
+        </section>
       </div>
       <div>
         <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center">
