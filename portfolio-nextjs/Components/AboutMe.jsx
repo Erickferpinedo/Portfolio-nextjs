@@ -8,7 +8,7 @@ const AboutMe = () => {
           id="about"
           className="w-full max-w-screen-lg mx-auto flex flex-col justify-center items-center text-center px-4 py-8"
         >
-          <p className="text-md font-medium text-pink-600 dark:text-pink-400 mb-2">
+          <p className="text-md font-medium text-blue-600 dark:text-blue-400 mb-2">
             Get to Know Me
           </p>
           <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
