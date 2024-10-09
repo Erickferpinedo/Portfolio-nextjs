@@ -18,7 +18,7 @@ const intro = () => {
       {/* info */}
       <div className="w-1/2 flex flex-col  justify-center items-center">
         <p className="mb-5 mt-5">
-          <small className="font-medium text-lg text-pink-600 dark:text-pink-400">
+          <small className="font-medium text-lg text-blue-600 dark:text-blue-400">
             Hello I'm
           </small>
         </p>
