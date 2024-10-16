@@ -2,7 +2,7 @@
 import { addDoc, collection } from "firebase/firestore";
 import { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
-import { db } from "../app/FirebaseConfig";
+import { db } from "../app/firebaseConfig.js";
 
 const addDataToFireStore = async (name, email, subject, message) => {
   try {
