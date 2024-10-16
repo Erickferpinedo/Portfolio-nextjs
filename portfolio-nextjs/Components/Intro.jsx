@@ -29,8 +29,7 @@ const intro = () => {
         </h1>
         <h2 className=" text-center mb-5 mt-5 flex items-center text-5xl font-extrabold dark:text-white">
           <span className="bg-blue-100 py-1 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded-xl dark:bg-blue-200 dark:text-blue-800 ms-1">
-            Software Engineer
-          </span>
+Full Stack Developer          </span>
         </h2>
 
         {/* <h2 className="mb-4 mt-4"><span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Full Stack Developer</span></h2> */}
