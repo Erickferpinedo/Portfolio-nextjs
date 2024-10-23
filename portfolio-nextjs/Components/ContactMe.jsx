@@ -1,7 +1,6 @@
 "use client";
 import { addDoc, collection } from "firebase/firestore";
 import { useState } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
 import { db } from "../app/firebaseConfig.js";
 
 const addDataToFireStore = async (name, email, subject, message) => {
@@ -28,7 +27,6 @@ const ContactForm = () => {
     subject: "",
     message: "",
   });
-  const [captchaToken, setCaptchaToken] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -41,10 +39,6 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!captchaToken) {
-      alert("Please complete the reCAPTCHA");
-      return;
-    }
 
     setLoading(true);
 
@@ -59,7 +53,6 @@ const ContactForm = () => {
         subject: "",
         message: "",
       });
-      setCaptchaToken(null);
       alert("Your message has been sent! I'll get back to you soon.");
     } else {
       alert("There was an error sending your message. Please try again.");
@@ -69,7 +62,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className=" dark:bg-black w-full h-full">
+    <div className="dark:bg-black w-full h-full">
       <div className="flex flex-col justify-center items-center py-6">
         <h2 className="text-blue-600 dark:text-blue-400 mb-2 text-lg font-medium">
           Let's Work Together
@@ -133,7 +126,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 id="subject"
-                className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
+                className="w-full px-3 py-2 border  dark:text-black border rounded-lg focus:outline-none focus:border-blue-500"
                 value={formData.subject}
                 onChange={handleChange}
                 required
@@ -150,19 +143,12 @@ const ContactForm = () => {
               <textarea
                 rows={6}
                 id="message"
-                className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
+                className="w-full px-3 py-2 dark:text-black border rounded-lg focus:outline-none focus:border-blue-500"
                 value={formData.message}
                 onChange={handleChange}
                 required
               ></textarea>
             </div>
-          </div>
-
-          <div className="flex justify-center mb-6">
-            <ReCAPTCHA
-              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-              onChange={setCaptchaToken}
-            />
           </div>
 
           <div className="text-center">
