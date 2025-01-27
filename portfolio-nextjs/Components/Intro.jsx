@@ -2,11 +2,11 @@
 
 const intro = () => {
   return (
-    <div className="flex flex-col justify-center items-center md:flex-row lg:flex-row justify-center items-center">
+    <div className="flex w-full flex-col justify-center items-center md:flex-row lg:flex-row justify-center items-center">
       {/* image */}
-      <div
+      <div 
         style={{ borderRadius: "400px", overflow: "hidden" }}
-        className=" relative h-44 w-44 md:h-full md:w-96 lg:h-full lg:w-96"
+        className=" relative  h-44 w-44 md:h-full md:w-96 lg:h-full lg:w-96"
       >
         <img
           src="/profile-rounded.jpg"
@@ -23,14 +23,23 @@ const intro = () => {
           </small>
         </p>
 
-        <h1 className=" text-center mb-5 text-5xl font-extrabold leading-none  text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <h1 className=" text-center mb-5 text-4xl font-extrabold leading-none  text-gray-900 md:text-4xl lg:text-4xl dark:text-white">
           {" "}
           Erick Pinedo{" "}
         </h1>
-        <h2 className=" text-center mb-5 mt-5 flex items-center text-5xl font-extrabold dark:text-white">
+        <h2 className=" text-center mb-5 mt-3 flex items-center text-5xl font-extrabold dark:text-white">
           <span className="bg-blue-100 py-1 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded-xl dark:bg-blue-200 dark:text-blue-800 ms-1">
 Full Stack Developer          </span>
         </h2>
+        <h2 className=" text-center mb-5 mt-3 flex items-center text-5xl font-extrabold dark:text-white">
+          <span className="bg-blue-100 py-1 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded-xl dark:bg-blue-200 dark:text-blue-800 ms-1">
+IT Support         </span>
+        </h2>
+        <h2 className=" text-center mb-5 mt-3 flex items-center text-5xl font-extrabold dark:text-white">
+          <span className="bg-blue-100 py-1 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded-xl dark:bg-blue-200 dark:text-blue-800 ms-1">
+Data Analyst         </span>
+        </h2>
+      
 
         {/* <h2 className="mb-4 mt-4"><span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Full Stack Developer</span></h2> */}
         <div className="mb-4 mt-4 flex flex-row">
@@ -94,6 +103,7 @@ Full Stack Developer          </span>
             />
           </a>
         </div>
+    
       </div>
     </div>
   );

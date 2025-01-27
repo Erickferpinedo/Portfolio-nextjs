@@ -11,9 +11,9 @@ const AboutMe = () => {
           <p className="text-md font-medium text-blue-600 dark:text-blue-400 mb-2">
             Get to Know Me
           </p>
-          <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
             About Me
-          </h1>
+          </h2>
           <p className="text-xl font-light text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl">
           I'm Erick Pinedo, an enthusiastic Information Technology student specializing in software development and web development. I am passionate about leveraging innovative technologies to address real-world challenges and create user-friendly solutions. I thrive in collaborative settings and continuously explore emerging IT trends to stay ahead in the field. With leadership experience at FNUTech Club and a strong background in collegiate soccer, I bring effective teamwork, time management, and dedication to every project. I’m eager to apply my skills to help forward-thinking organizations achieve their goals.
           </p>

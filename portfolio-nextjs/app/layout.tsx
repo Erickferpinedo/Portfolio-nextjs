@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Erick Pinedo",
-  description: "Erick Pinedo's Portfolio ",
+  description: "I’m Erick Pinedo, a Full Stack Developer, Data Analyst, and IT Support Specialist currently studying cybersecurity. I specialize in building scalable web solutions, analyzing data for actionable insights, and delivering efficient technical support. ",
 };
 
 export default function RootLayout({
