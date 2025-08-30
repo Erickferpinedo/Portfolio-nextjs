@@ -1,7 +1,16 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import PropTypes from "prop-types";
 
-export default function MiniGameHUD({ total, collected, onReset }) {
+export default function MiniGameHUD({
+  total,
+  collected,
+  onReset,
+  gameActive,
+  onStart,
+  onPause,
+  completedOnce,
+}) {
   const progress = Math.round((collected / total) * 100);
 
   // --- position state (in pixels from top/left) ---
@@ -98,6 +107,9 @@ export default function MiniGameHUD({ total, collected, onReset }) {
     document.body.style.userSelect = "";
   };
 
+  const showPlayAgain = !gameActive && (completedOnce || collected >= total);
+  const ctaLabel = gameActive ? "Pause" : showPlayAgain ? "Play again" : "Start";
+
   return (
     <div
       ref={hudRef}
@@ -110,7 +122,7 @@ export default function MiniGameHUD({ total, collected, onReset }) {
     >
       <span className="text-sm font-medium">Orb Quest</span>
 
-      <div className="h-2 w-24 overflow-hidden rounded bg-neutral-200 sm:w-28">
+      <div className="h-2 w-24 overflow-hidden rounded bg-neutral-200 sm:w-28" aria-hidden>
         <div
           className="h-full bg-gradient-to-r from-cyan-500 via-violet-500 to-emerald-500"
           style={{ width: `${progress}%` }}
@@ -121,15 +133,40 @@ export default function MiniGameHUD({ total, collected, onReset }) {
         {collected}/{total}
       </span>
 
+      {/* Start/Pause */}
+      {gameActive ? (
+        <button
+          onClick={(e) => { e.stopPropagation(); onPause(); }}
+          className="rounded-full bg-neutral-900 px-3 py-1 text-xs text-white hover:opacity-90"
+        >
+          {ctaLabel}
+        </button>
+      ) : (
+        <button
+          onClick={(e) => { e.stopPropagation(); onStart(); }}
+          className="rounded-full bg-neutral-900 px-3 py-1 text-xs text-white hover:opacity-90"
+        >
+          {ctaLabel}
+        </button>
+      )}
+
+      {/* Explicit Reset */}
       <button
-        onClick={(e) => {
-          e.stopPropagation(); // prevent drag start
-          onReset();
-        }}
-        className="rounded-full bg-neutral-900 px-3 py-1 text-xs text-white hover:opacity-90"
+        onClick={(e) => { e.stopPropagation(); onReset(); }}
+        className="rounded-full bg-neutral-200 px-3 py-1 text-xs text-neutral-900 hover:bg-neutral-300"
       >
         Reset
       </button>
     </div>
   );
 }
+
+MiniGameHUD.propTypes = {
+  total: PropTypes.number.isRequired,
+  collected: PropTypes.number.isRequired,
+  onReset: PropTypes.func.isRequired,
+  gameActive: PropTypes.bool.isRequired,
+  onStart: PropTypes.func.isRequired,
+  onPause: PropTypes.func.isRequired,
+  completedOnce: PropTypes.bool,
+};

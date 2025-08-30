@@ -1,0 +1,53 @@
+[debug] [2025-08-30T21:38:19.289Z] ----------------------------------------------------------------------
+[debug] [2025-08-30T21:38:19.291Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\erick\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-08-30T21:38:19.291Z] CLI Version:   13.29.3
+[debug] [2025-08-30T21:38:19.291Z] Platform:      win32
+[debug] [2025-08-30T21:38:19.291Z] Node Version:  v22.9.0
+[debug] [2025-08-30T21:38:19.292Z] Time:          Sat Aug 30 2025 17:38:19 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-08-30T21:38:19.292Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-30T21:38:19.440Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-30T21:38:19.440Z] > authorizing via signed-in user (erickfprogrammer@gmail.com)
+[debug] [2025-08-30T21:38:19.440Z] [iam] checking project portfolio-nextjs-f71e3 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-08-30T21:38:19.441Z] Checked if tokens are valid: false, expires at: 1756586150454
+[debug] [2025-08-30T21:38:19.441Z] Checked if tokens are valid: false, expires at: 1756586150454
+[debug] [2025-08-30T21:38:19.441Z] > refreshing access token with scopes: []
+[debug] [2025-08-30T21:38:19.443Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-08-30T21:38:19.443Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-08-30T21:38:19.614Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-08-30T21:38:19.614Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-08-30T21:38:19.624Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-nextjs-f71e3:testIamPermissions [none]
+[debug] [2025-08-30T21:38:19.624Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-nextjs-f71e3:testIamPermissions x-goog-quota-user=projects/portfolio-nextjs-f71e3
+[debug] [2025-08-30T21:38:19.625Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-nextjs-f71e3:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-08-30T21:38:19.800Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-nextjs-f71e3:testIamPermissions 200
+[debug] [2025-08-30T21:38:19.800Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-nextjs-f71e3:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-08-30T21:38:19.801Z] Checked if tokens are valid: true, expires at: 1756593498614
+[debug] [2025-08-30T21:38:19.801Z] Checked if tokens are valid: true, expires at: 1756593498614
+[debug] [2025-08-30T21:38:19.801Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3 [none]
+[debug] [2025-08-30T21:38:20.171Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3 200
+[debug] [2025-08-30T21:38:20.171Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3 {"projectId":"portfolio-nextjs-f71e3","projectNumber":"166201439981","displayName":"portfolio-nextjs","name":"projects/portfolio-nextjs-f71e3","resources":{"hostingSite":"portfolio-nextjs-f71e3"},"state":"ACTIVE","etag":"1_68f05be5-687b-4441-a253-04bebb745851"}
+[debug] [2025-08-30T21:38:22.220Z] Checked if tokens are valid: true, expires at: 1756593498614
+[debug] [2025-08-30T21:38:22.221Z] Checked if tokens are valid: true, expires at: 1756593498614
+[debug] [2025-08-30T21:38:22.221Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3/sites pageToken=&pageSize=10
+[debug] [2025-08-30T21:38:22.776Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3/sites 200
+[debug] [2025-08-30T21:38:22.777Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3/sites {"sites":[{"name":"projects/portfolio-nextjs-f71e3/sites/portfolio-nextjs-f71e3","defaultUrl":"https://portfolio-nextjs-f71e3.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-08-30T21:38:22.777Z] Checked if tokens are valid: true, expires at: 1756593498614
+[debug] [2025-08-30T21:38:22.777Z] Checked if tokens are valid: true, expires at: 1756593498614
+[debug] [2025-08-30T21:38:22.777Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3/sites 
+[debug] [2025-08-30T21:38:23.000Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3/sites 200
+[debug] [2025-08-30T21:38:23.000Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3/sites {"sites":[{"name":"projects/portfolio-nextjs-f71e3/sites/portfolio-nextjs-f71e3","defaultUrl":"https://portfolio-nextjs-f71e3.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-08-30T21:38:23.001Z] Checked if tokens are valid: true, expires at: 1756593498614
+[debug] [2025-08-30T21:38:23.001Z] Checked if tokens are valid: true, expires at: 1756593498614
+[debug] [2025-08-30T21:38:23.001Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3/webApps/-/config [none]
+[debug] [2025-08-30T21:38:23.486Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3/webApps/-/config 200
+[debug] [2025-08-30T21:38:23.486Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-nextjs-f71e3/webApps/-/config {"projectId":"portfolio-nextjs-f71e3","appId":"1:166201439981:web:f45cb372d19bb83a573ee4","storageBucket":"portfolio-nextjs-f71e3.firebasestorage.app","apiKey":"AIzaSyAFAz83Qn6_I7GYQPEH2NOLwFtZ-SyD_4k","authDomain":"portfolio-nextjs-f71e3.firebaseapp.com","messagingSenderId":"166201439981","measurementId":"G-9WZMM38LNX"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+

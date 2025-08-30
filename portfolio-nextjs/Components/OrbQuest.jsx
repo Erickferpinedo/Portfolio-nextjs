@@ -1,22 +1,32 @@
 import React, { useEffect, useMemo, useState } from "react";
+import PropTypes from "prop-types";
 
-function cx(...a) { return a.filter(Boolean).join(" "); }
+function cx(...a) {
+  return a.filter(Boolean).join(" ");
+}
 
 /**
  * OrbQuest
- * Props:
- *  - active (bool): whether the game is visible
- *  - onComplete (fn): called when all orbs are collected
- *  - onCountChange (fn): called with current collected count
+ * @param {Object} props
+ * @param {boolean} props.active - whether the game is visible
+ * @param {() => void} [props.onComplete] - called when all orbs are collected
+ * @param {(n:number) => void} [props.onCountChange] - called with current collected count
  */
 export default function OrbQuest({ active, onComplete, onCountChange }) {
   // Positions are percentages -> fully responsive on all screens
-  const orbPositions = useMemo(() => [
-    { top: "15%", left: "8%"  }, { top: "28%", left: "78%" },
-    { top: "46%", left: "18%" }, { top: "62%", left: "85%" },
-    { top: "74%", left: "35%" }, { top: "88%", left: "65%" },
-    { top: "40%", left: "52%" }, { top: "10%", left: "55%" },
-  ], []);
+  const orbPositions = useMemo(
+    () => [
+      { top: "15%", left: "8%" },
+      { top: "28%", left: "78%" },
+      { top: "46%", left: "18%" },
+      { top: "62%", left: "85%" },
+      { top: "74%", left: "35%" },
+      { top: "88%", left: "65%" },
+      { top: "40%", left: "52%" },
+      { top: "10%", left: "55%" },
+    ],
+    []
+  );
 
   const [hidden, setHidden] = useState(() => new Set());
 
@@ -55,10 +65,17 @@ export default function OrbQuest({ active, onComplete, onCountChange }) {
           style={{
             top: pos.top,
             left: pos.left,
-            background: "radial-gradient(circle at 30% 30%, #a78bfa, #06b6d4)",
+            background:
+              "radial-gradient(circle at 30% 30%, #a78bfa, #06b6d4)",
           }}
         />
       ))}
     </div>
   );
 }
+
+OrbQuest.propTypes = {
+  active: PropTypes.bool.isRequired,
+  onComplete: PropTypes.func,
+  onCountChange: PropTypes.func,
+};
