@@ -4,37 +4,32 @@ import { useState, useEffect } from "react";
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Toggle visibility based on scroll position
-  const toggleVisibility = () => {
-    setIsVisible(window.scrollY > 300);
-  };
-
-  // Scroll to top function
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth", // Smooth scrolling effect
-    });
-  };
-
+  // Show button after scrolling down
   useEffect(() => {
-    window.addEventListener("scroll", toggleVisibility);
-    return () => {
-      window.removeEventListener("scroll", toggleVisibility);
+    const toggleVisibility = () => {
+      setIsVisible(window.scrollY > 300);
     };
+    window.addEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", toggleVisibility);
   }, []);
 
+  // Scroll to top
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
-    <div>
+    <>
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 p-3 bg-blue-600 text-white font-semibold text-sm rounded-full shadow-md hover:bg-pink-700 transition-all duration-300 ease-in-out z-50" // Added z-50 to ensure it appears above other content
+          aria-label="Scroll to top"
+          className="fixed bottom-24 right-6 flex h-11 w-11 items-center justify-center rounded-full border border-neutral-200 bg-white text-neutral-700 shadow-lg transition hover:-translate-y-1 hover:bg-neutral-100 hover:shadow-xl dark:border-white/10 dark:bg-neutral-800 dark:text-neutral-200 dark:hover:bg-neutral-700"
         >
-          ↑ Top
+          ↑
         </button>
       )}
-    </div>
+    </>
   );
 };
 

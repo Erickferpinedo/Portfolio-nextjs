@@ -1,112 +1,116 @@
-"Use client";
+"use client";
 
-const intro = () => {
+import React from "react";
+
+export default function Intro() {
   return (
-    <div className="flex w-full flex-col justify-center items-center md:flex-row lg:flex-row justify-center items-center">
-      {/* image */}
-      <div 
-        style={{ borderRadius: "400px", overflow: "hidden" }}
-        className=" relative  h-44 w-44 md:h-full md:w-96 lg:h-full lg:w-96"
-      >
-        <img
-          src="/profile-rounded.jpg"
-          alt=" picture from Erick pinedo"
-          layout="fill"
-          className="object-cover "
-        />
-      </div>
-      {/* info */}
-      <div className="w-1/2 flex flex-col  justify-center items-center">
-        <p className="mb-5 mt-5">
-          <small className="font-medium text-lg text-blue-600 dark:text-blue-400">
-            Hello I'm
-          </small>
-        </p>
+    <section id="home" className="relative isolate overflow-hidden pt-10 sm:pt-16">
+      {/* soft radial background blobs */}
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_20%_10%,#cffafe_0%,transparent_40%),radial-gradient(circle_at_80%_0%,#ddd6fe_0%,transparent_40%),radial-gradient(circle_at_50%_90%,#dcfce7_0%,transparent_40%)]" />
 
-        <h1 className=" text-center mb-5 text-4xl font-extrabold leading-none  text-gray-900 md:text-4xl lg:text-4xl dark:text-white">
-          {" "}
-          Erick Pinedo{" "}
-        </h1>
-        <h2 className=" text-center mb-5 mt-3 flex items-center text-5xl font-extrabold dark:text-white">
-          <span className="bg-blue-100 py-1 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded-xl dark:bg-blue-200 dark:text-blue-800 ms-1">
-Full Stack Developer          </span>
-        </h2>
-        <h2 className=" text-center mb-5 mt-3 flex items-center text-5xl font-extrabold dark:text-white">
-          <span className="bg-blue-100 py-1 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded-xl dark:bg-blue-200 dark:text-blue-800 ms-1">
-IT Support         </span>
-        </h2>
-        <h2 className=" text-center mb-5 mt-3 flex items-center text-5xl font-extrabold dark:text-white">
-          <span className="bg-blue-100 py-1 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded-xl dark:bg-blue-200 dark:text-blue-800 ms-1">
-Data Analyst         </span>
-        </h2>
-      
+      <div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-8 px-4 pb-12 sm:grid-cols-2 sm:pb-20">
+        {/* Left copy */}
+        <div>
+          <p className="text-sm uppercase tracking-wider text-neutral-500">
+            Portfolio
+          </p>
 
-        {/* <h2 className="mb-4 mt-4"><span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">Full Stack Developer</span></h2> */}
-        <div className="mb-4 mt-4 flex flex-row">
-          <a
-            href="https://docs.google.com/document/d/1j75sF_Dj2t0GcoLjEos2zH0_NtBgGdHhTiewg4rmKI4/edit?usp=sharing"
-            target="_blank"
-          >
-            <button
-              type="button"
-              className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+          {/* ✅ Your name is the only <h1> */}
+          <h1 className="mt-2 text-4xl font-extrabold leading-tight text-neutral-900 sm:text-5xl">
+            Erick Pinedo
+          </h1>
+
+          {/* tagline */}
+          <h2 className="mt-3 text-2xl font-semibold leading-snug text-neutral-800 sm:text-3xl">
+            Build experiences that people remember.
+          </h2>
+
+          <p className="mt-4 max-w-prose text-lg font-medium text-neutral-800">
+  I’m a Full-Stack Developer, IT Support, and Data Analyst.
+  I combine clean design with fast performance and thoughtful details.
+</p>
+
+          {/* ✅ Unified buttons */}
+          <div className="mt-5 flex flex-wrap gap-3">
+            {/* Dark primary */}
+            <a
+              href="#projects"
+              className="rounded-full bg-neutral-900 px-5 py-2 text-sm font-medium text-white 
+                         hover:opacity-90 transition-colors"
             >
-              Resume
-            </button>
-          </a>
+              View Projects
+            </a>
 
-          <a href="#Contact">
-            <button
-              type="button"
-              className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+            {/* Light secondary */}
+            <a
+              href="#contact"
+              className="rounded-full border border-neutral-300 px-5 py-2 text-sm font-medium 
+                         text-neutral-700 bg-white 
+                         hover:bg-neutral-100 hover:text-neutral-900 
+                         transition-colors"
             >
               Contact
-            </button>
-          </a>
-        </div>
-        <div className="mb-4 mt-4 flex flex-row justify-between details-container flex-1 bg-white p-4 md:p-6 pl-4 md:pl-6 rounded-2xl border border-gray-300">
-          <a href="https://www.linkedin.com/in/erick-pinedo-murgas-a27332272/">
-            <img
-              src="/linkedin.png"
-              width={30}
-              height={30}
-              alt="Erick's Linkedin"
-              className="ml-2 mr-2"
-            />
-          </a>
-          <a href="https://github.com/Erickferpinedo">
-            <img
-              src="/github.png"
-              width={30}
-              height={30}
-              alt="Erick's Github"
-              className="ml-2 mr-2"
-            />
-          </a>
+            </a>
 
-          <a href="https://www.instagram.com/erickferpinedo/">
-            <img
-              src="/instagram.png"
-              width={30}
-              height={30}
-              alt="Erick's Instagram"
-              className="ml-2 mr-2"
-            />
-          </a>
-          <a href="https://wa.me/17862006991">
-            <img
-              src="/whatsapp.png"
-              width={30}
-              height={30}
-              alt="Erick's Whatsapp"
-              className="ml-2 mr-2"
-            />
-          </a>
+            {/* Outline tertiary */}
+            <a
+              href="https://docs.google.com/document/d/1j75sF_Dj2t0GcoLjEos2zH0_NtBgGdHhTiewg4rmKI4/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-neutral-300 px-5 py-2 text-sm font-medium 
+                         text-neutral-700 
+                         hover:bg-neutral-50 hover:text-neutral-900 
+                         transition-colors"
+            >
+              Resume
+            </a>
+          </div>
+{/* mini-game status */}
+<div className="mt-8 flex items-center gap-3 text-base font-medium text-neutral-800">
+  <span className="flex items-center gap-2">
+    <span role="img" aria-label="game" className="text-xl">🎮</span>
+    Mini-game active
+  </span>
+  <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-500" />
+  <span className="text-sm sm:text-base text-neutral-700">
+    Collect the floating orbs
+  </span>
+</div>
+          {/* socials */}
+          <div className="mt-6 flex flex-wrap items-center gap-3 rounded-2xl border border-neutral-200 bg-white p-3 shadow-sm">
+            {[
+              { href: "https://www.linkedin.com/in/erick-pinedo-murgas-a27332272/", src: "/linkedin.png", alt: "LinkedIn" },
+              { href: "https://github.com/Erickferpinedo", src: "/github.png", alt: "GitHub" },
+              { href: "https://www.instagram.com/erickferpinedo/", src: "/instagram.png", alt: "Instagram" },
+              { href: "https://wa.me/17862006991", src: "/whatsapp.png", alt: "WhatsApp" },
+            ].map((s) => (
+              <a
+                key={s.href}
+                href={s.href}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-xl px-2 py-1 hover:bg-neutral-50"
+                aria-label={s.alt}
+              >
+                <img src={s.src} alt={s.alt} width={24} height={24} className="h-6 w-6" />
+                <span className="text-sm text-neutral-700">{s.alt}</span>
+              </a>
+            ))}
+          </div>
         </div>
-    
+
+        {/* Right visual */}
+        <div className="relative">
+          <div className="aspect-square w-full rounded-2xl bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-700 p-1 shadow-2xl">
+            <div className="relative grid h-full place-items-center overflow-hidden rounded-2xl bg-[conic-gradient(at_30%_30%,#14b8a6,30%,#8b5cf6,60%,#22c55e,85%,#14b8a6)]">
+              <div className="rounded-full bg-white/10 px-4 py-2 text-sm text-white/90 backdrop-blur">
+                Erick Pinedo — Full-Stack • IT Support • Data Analyst
+              </div>
+              <div className="pointer-events-none absolute inset-0 animate-spin-slow bg-[radial-gradient(circle_at_50%_50%,transparent_55%,rgba(255,255,255,0.06)_56%)]" />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default intro;
+}

@@ -1,305 +1,94 @@
-"Use client";
+"use client";
 
-const Experience = () => {
+import React from "react";
+
+export default function Experience() {
+  const languages = [
+    "HTML/CSS",
+    "Tailwind CSS",
+    "JavaScript",
+    "Java",
+    "PHP",
+    "SQL",
+    "TypeScript",
+    "CSS (Modules)",
+  ];
+
+  const tech = [
+    "Express.js",
+    "Next.js",
+    "React",
+    "Angular",
+    "Node.js",
+    "MySQL",
+    "Figma",
+    "GCP",
+    "Git",
+    "Bootstrap",
+  ];
+
   return (
-    <div id="Experience">
-      <div className="flex flex-col justify-center items-center py-6">
-        <h2 className="mb-5 mt-5">
-          <small className="font-medium text-lg text-blue-600 dark:text-blue-400">
-            Explore My
-          </small>
+    <section id="experience" className="mx-auto w-full max-w-6xl px-4 py-16">
+      {/* Header */}
+      <div className="text-center">
+        <p className="text-sm uppercase tracking-wider text-neutral-500">
+          Explore My
+        </p>
+        <h2 className="mt-2 text-3xl font-extrabold text-neutral-600  sm:text-4xl">
+          Experience
         </h2>
-      </div>
-      <div className="flex flex-col justify-center items-center pb-6">
-        <h3 className="text-4xl font-bold dark:text-white mb-3">Experience</h3>
+        <p className="mx-auto mt-3 max-w-3xl text-neutral-700 dark:text-neutral-600">
+          A quick view of the languages and technologies I have used to build
+          fast, accessible, and maintainable products.
+        </p>
       </div>
 
-      <div className="flex p-6 flex-col md:flex-col lg:flex-row">
-        <div className="details-container flex-1 bg-white p-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2 md:mr-2">
-          <div className="w-full flex flex-col justify-center items-center">
-            <h3 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">
+      {/* Cards */}
+      <div className="mt-8 grid gap-6 md:grid-cols-2">
+        {/* Languages */}
+        <article className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm dark:border-white/10 dark:bg-neutral-900">
+          <header className="mb-4 flex items-center gap-3">
+           
+            <h3 className="text-lg font-semibold text-neutral-900 dark:text-white">
               Languages
             </h3>
-          </div>
-          <div className="mb-4 mt-4 flex flex-col md:flex-row flex-wrap justify-between">
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Html/Css
-                </h3>
-              </div>
-            </article>
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Tailwind Css
-                </h3>
-              </div>
-            </article>
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Javascript
-                </h3>
-              </div>
-            </article>
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Java
-                </h3>
-              </div>
-            </article>
-          </div>
-          <div className="mb-4 mt-4 flex flex-col md:flex-row flex-wrap justify-between">
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Php
-                </h3>
-              </div>
-            </article>
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  SQL
-                </h3>
-              </div>
-            </article>
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Typescript
-                </h3>
-              </div>
-            </article>
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  CSS
-                </h3>
-              </div>
-            </article>
-          </div>
-        </div>
+          </header>
 
-        <div className="details-container flex-1 bg-white p-6 rounded-2xl border border-gray-300 text-center mt-4 md:mt-2">
-          <div className="w-full flex flex-col justify-center items-center">
-            <h3 className="mb-2 text-lg md:text-xl lg:text-2xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-black">
+          <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            {languages.map((item) => (
+              <li
+                key={item}
+                className="flex items-center gap-2 rounded-xl border border-neutral-200 bg-white px-3 py-2 text-sm text-neutral-800 shadow-sm dark:border-white/10 dark:bg-neutral-800 dark:text-neutral-200"
+              >
+                <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </article>
+
+        {/* Technologies */}
+        <article className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm dark:border-white/10 dark:bg-neutral-900">
+          <header className="mb-4 flex items-center gap-3">
+            
+            <h3 className="text-lg font-semibold text-neutral-900 dark:text-white">
               Technologies
             </h3>
-          </div>
+          </header>
 
-          <div className="mb-4 mt-4 flex flex-col md:flex-row flex-wrap justify-between">
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Express.js
-                </h3>
-              </div>
-            </article>
-
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Next.JS
-                </h3>
-              </div>
-            </article>
-
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  React
-                </h3>
-              </div>
-            </article>
-
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Angular
-                </h3>
-              </div>
-            </article>
-
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Node.js
-                </h3>
-              </div>
-            </article>
-          </div>
-
-          <div className="mb-4 mt-4 flex flex-col md:flex-row flex-wrap justify-between">
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  MySQL
-                </h3>
-              </div>
-            </article>
-
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Figma
-                </h3>
-              </div>
-            </article>
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  GCP
-                </h3>
-              </div>
-            </article>
-            <article className="flex flex-row items-start mb-2 md:mb0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Git
-                </h3>
-              </div>
-            </article>
-            <article className="flex flex-row items-start mb-2 md:mb-0">
-              <img
-                src="/checkmark.png"
-                width={30}
-                height={30}
-                alt="checkmark"
-                className="ml-2 mr-2"
-              />
-              <div className="flex flex-col">
-                <h3 className="text-left text-lg font-bold dark:text-black">
-                  Bootstrap
-                </h3>
-              </div>
-            </article>
-          </div>
-        </div>
+          <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            {tech.map((item) => (
+              <li
+                key={item}
+                className="flex items-center gap-2 rounded-xl border border-neutral-200 bg-white px-3 py-2 text-sm text-neutral-800 shadow-sm dark:border-white/10 dark:bg-neutral-800 dark:text-neutral-200"
+              >
+                <span className="h-1.5 w-1.5 rounded-full bg-cyan-500" />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </article>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default Experience;
+}

@@ -1,33 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {scroll-behavior: smooth;} 
+
+/* Global reset improvements */
+* {
+  @apply scroll-smooth antialiased;
+}
+
+/* Root theme variables */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 256, 256, 256;
-  --background-end-rgb: 256, 256, 256;
+  --color-foreground: 17, 24, 39;   /* neutral-900 */
+  --color-background: 255, 255, 255; /* white */
+  --color-accent: 14, 165, 233;     /* cyan-500 */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --color-foreground: 255, 255, 255;
+    --color-background: 15, 23, 42; /* slate-900 */
+    --color-accent: 59, 130, 246;   /* blue-500 */
   }
 }
 
+/* Global body styling */
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--color-foreground));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to bottom,
+    rgb(var(--color-background)),
+    rgb(var(--color-background))
+  );
+  @apply min-h-screen font-sans;
 }
 
+/* Smooth fade-in for pages */
+body {
+  animation: fadeIn 0.4s ease-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Utility overrides */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+  .animate-spin-slow {
+    animation: spin 18s linear infinite;
+  }
 }
+
+/* Reusable animations */
+@keyframes spin { to { transform: rotate(360deg) } }
+@keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-10px) } }
